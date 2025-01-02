@@ -1,3 +1,6 @@
+package Controller;
+import Model.Monster;
+
 public class Actions {
 
     public static interface Action {

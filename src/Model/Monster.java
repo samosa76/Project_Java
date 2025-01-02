@@ -1,9 +1,11 @@
+package Model;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public class Monster {
+    //default 
     public static interface Stats {
         public String name();
 
@@ -55,7 +57,7 @@ public class Monster {
             return 20;
         }
     }
-    
+
 
     public static class SummonMonster {
         private List<Stats> monsters = new ArrayList<Stats>();

@@ -1,3 +1,7 @@
+import Controller.Actions;
+import Controller.Controller;
+import Model.Monster;
+
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -20,10 +24,15 @@ public class App {
 
         //Option Attack to decrease monster hp
         Actions.Action playerSkill = level1.player("skill");
-        Actions.Action playerSlash = level1.player("slash");
+        // Actions.Action playerSlash = level1.player("slash");
 
         playerSkill.Attack();
-        playerSlash.Attack();
+        playerSkill.Attack();
+        playerSkill.Attack();
+        playerSkill.Attack();
+        playerSkill.Attack();
+
+        // playerSlash.Attack();
     }
 
     
